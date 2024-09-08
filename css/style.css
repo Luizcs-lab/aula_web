@@ -54,3 +54,19 @@ td{
     height: 300px;
     width: auto;
 }
+#seçao3{
+    background-color: rgb(138, 138, 138);
+    height: 300px;
+    width: auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background-color: rgb(71, 71, 71);
+}
+P{
+    color: white;
+}
