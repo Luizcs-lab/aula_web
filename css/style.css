@@ -54,6 +54,14 @@ td{
     height: 300px;
     width: auto;
 }
+video{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    border-color: chocolate;
+    border-style: solid;
+    
+}
 #seçao3{
     background-color: rgb(175, 174, 174);
     height: 350px;
