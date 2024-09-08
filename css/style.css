@@ -55,9 +55,12 @@ td{
     width: auto;
 }
 #seçao3{
-    background-color: rgb(138, 138, 138);
-    height: 300px;
+    background-color: rgb(175, 174, 174);
+    height: 350px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     display: flex;
@@ -71,10 +74,24 @@ P{
     color: white;
 }
 form{
-    background-color: rgb(180, 180, 180);
-    width: 250px;
+    background-color: rgb(73, 73, 73);
+    width: 500px;
     height: 300px;
-    border-radius: 3px;
+    border-radius: 10px;
     border-style: ridge;
-    border-color: chocolate;
+    
+    border-color: chocolate ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;   
+   border-radius: 10px;
 }
