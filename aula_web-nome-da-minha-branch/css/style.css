@@ -1,0 +1,131 @@
+body{
+    background:linear-gradient(90deg, rgb(5, 228, 90), rgb(248, 41, 255), blue) ;
+    animation: gradienteAnimado 8s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradienteAnimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+header{
+    background-color: gray;
+    width: auto;
+    height: 100px;
+}
+#logo{
+    width: 100px;
+}
+#logo:hover{
+    width: 180px;
+    height: auto;
+    transition: 3s;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+}
+button{
+    
+    
+    background-color: darkblue;
+    font-size: large;
+    color: chocolate;
+    border: 5px;
+    border-color: rgb(224, 108, 0);
+    border-style: ridge;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+#seçao1{
+    background-color: rgb(59, 59, 59);
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 5%;
+    
+}
+table{
+    width: auto;
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+td{
+    background-color: rgb(59, 59, 59);
+}
+#seçao2{
+    background-color: rgb(85, 85, 85);
+    height: 300px;
+    width: auto;
+    margin-top: 5%;
+}
+video{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    border-color: chocolate;
+    border-style: solid;
+    
+}
+#seçao3{
+    background-color: rgb(175, 174, 174);
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background-color: rgb(71, 71, 71);
+}
+P{
+    color: white;
+}
+form{
+    background-color: rgb(73, 73, 73);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border-style: ridge;
+    
+    border-color: chocolate ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;   
+   border-radius: 10px;
+}
