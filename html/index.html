@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    input{
+        height: 30px;
+        width: 200px;
+    }
+
+    </style>
+</head>
+<body style="display: flex; align-items: center; flex-direction: column; gap:30px">
+
+    <input placeholder="insira seu texto" type="text" id="text">
+    <input placeholder="digite 0 Maiusculo e 1 Minusculo" type="number" id="converter">
+    <input style="cursor: pointer;" onclick="converteractio()" type="button" name="" id="acao" value="converter">
+
+    <p id="value"></p>
+    <p id="new-value"></p>
+
+    <script>
+        const text = document.getElementById("text").value;
+        const converter = document.getElementById("converter").value;
+
+        //função javascript para converter o texto a partir de um parametro
+        function converterText(text, converter){
+            if (converter==0) {
+                return text.toUpperCase();
+            } else if(converter==1) {
+                return text.toLowerCase();
+            }else{
+                return text;
+            }
+        }
+
+        function converteractio(){
+            const text = document.getElementById("text").value;
+            const converter = document.getElementById("converter").value;
+            const result = converterText(text, converter);
+            document.getElementById("value").innerText = text;
+            document.getElementById("new-value").innerText =converter;
+        }
+
+        const value = prompt("insira um texto");
+        
+        document.getElementById("value").innerText = value;
+        document.getElementById("new-value").innerText = converterText(value);
+
+    </script>
+</body>
+</html>
